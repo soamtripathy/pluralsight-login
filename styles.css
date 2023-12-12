@@ -1,75 +1,149 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-body{
-    height: 100vh;
-    width: 100%;
-    background: #181818;
+body {
+  height: 100vh;
+  width: 100%;
+  background: #181818;
 }
-.container .logo{
-    padding: 10px 70px 15px;
-
+.container .logo {
+  padding: 10px 70px 15px;
 }
-.container .logo img{
-    height: 70px;
-    width: 320px;
+.container .logo img {
+  height: 70px;
+  width: 320px;
 }
-.container .left-side{
-    width: 40%;
-    height: 100vh;
-    color: #fff;
-    float: left;
+.container .left-side {
+  width: 40%;
+  height: 100vh;
+  color: #fff;
+  float: left;
 }
 .left-side .form {
-    margin-left: 50px;
-    padding: 10px 25px 20px;
-    
+  margin-left: 50px;
+  padding: 10px 25px 20px;
 }
-.left-side .form .pass{
-    padding: 20px 0px 20px;
+.left-side .form .pass {
+  padding: 20px 0px 20px;
 }
 .left-side .username label,
-.left-side .pass label
-{
-    line-height: 30px;
-    padding: 4px 4px 4px;
+.left-side .pass label {
+  line-height: 30px;
+  padding: 4px 4px 4px;
 }
-input#pass, input#username{
-    padding: 10px 50px;
-    background: #181818;
-    color: #fff;
-    border: 1px solid #454545;
-}
-.container .right-side{
-    width: 60%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    float: right;
-    background: url(img/bg.jpg) no-repeat;
-    background-size: cover;
+input#pass,
+input#username {
+  padding: 10px 50px;
+  background: #181818;
+  color: #fff;
+  border: 1px solid #454545;
 }
 
-.left-side .sub button{
-    background-color: #f96816;
-    color: #fff;
-    padding: 15px 150px 10px;
-    border: none;
-    margin-top: 10px;
-    font-size: 15px;
-    font-weight: 500;
+.left-side .sub button {
+  background-color: #f96816;
+  color: #fff;
+  padding: 15px 150px 10px;
+  border: none;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
 }
-.links{
+.left-side .sub button:hover{
+    cursor: pointer;
+    background: #ff7b39;
+    transition: all 0.3s ease;
+}
+.links {
+  padding: 10px 70px 10px;
+  text-align: center;
+}
+
+.links a {
+    color: #fff;
+  line-height: 35px;
+  padding: 10px 60px 25px;
+  text-decoration: none;
+}
+.or h4 {
+  text-align: center;
+  position: relative;
+}
+.or h4::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 125px;
+  background: #fff;
+  left: 100px;
+  top: 12px;
+}
+.or h4::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 125px;
+  background: #fff;
+  right: 100px;
+  top: 12px;
+}
+.left-side .second-button button {
+  padding: 10px 53px 10px;
+  margin-top: 20px;
+  margin-left: 130px;
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+
+}
+.left-side .second-button button:hover{
+    border-color: #f96816;
+    color: #f96816;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.container .right-side {
+  width: 60%;
+  height: 100vh;
+  color: #fff;
+  float: right;
+  background: url(img/bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.right-side .main-text {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 220px;
+}
+.right-side .third-button{
     padding: 10px 70px 10px;
     text-align: center;
 }
-.links a{
+.right-side .third-button button{
+    padding: 10px 70px 10px;;
+    background: none;
+    color:#fff;
+    border: 1px solid #fff;
+    
+}
+.right-side .third-button button:hover{
+    border-color: #f96816;
+    color: #f96816;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 62px;
     color: #fff;
 }
+
