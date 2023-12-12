@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: #181818;
+}
+.container .logo{
+    padding: 10px 70px 15px;
+
+}
+.container .logo img{
+    height: 70px;
+    width: 320px;
+}
+.container .left-side{
+    width: 40%;
+    height: 100vh;
+    color: #fff;
+    float: left;
+}
+.left-side .form {
+    margin-left: 50px;
+    padding: 10px 25px 20px;
+    
+}
+.left-side .form .pass{
+    padding: 20px 0px 20px;
+}
+.left-side .username label,
+.left-side .pass label
+{
+    line-height: 30px;
+    padding: 4px 4px 4px;
+}
+input#pass, input#username{
+    padding: 10px 50px;
+    background: #181818;
+    color: #fff;
+    border: 1px solid #454545;
+}
+.container .right-side{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    float: right;
+    background: url(img/bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.left-side .sub button{
+    background-color: #f96816;
+    color: #fff;
+    padding: 15px 150px 10px;
+    border: none;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.links{
+    padding: 10px 70px 10px;
+    text-align: center;
+}
+.links a{
+    color: #fff;
+}
